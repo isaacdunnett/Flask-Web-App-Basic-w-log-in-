@@ -1,4 +1,4 @@
-{% extends "index.html" %}
+{% extends "layout.html" %}
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/home.css') }}">
 <h1 class="mb-3">Posts by {{ user.username }} ({{ postsLength }})</h1>
