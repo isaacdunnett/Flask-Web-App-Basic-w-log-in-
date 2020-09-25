@@ -1,4 +1,6 @@
-from flowgrate import app
+from flowgrate import create_app
+
+app = create_app()
 
 if __name__ == "__main__":
 	app.run(debug=True)
